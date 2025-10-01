@@ -1,0 +1,19 @@
+{
+  "name": "vivid-construction",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite build --watch",
+    "prettier": "prettier --write . && vite build"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "vite": "^7.1.2"
+  },
+  "dependencies": {
+    "gsap": "^3.13.0",
+    "lenis": "^1.3.8",
+    "macy": "^2.5.1"
+  }
+}
