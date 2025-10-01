@@ -64,7 +64,7 @@ document.fonts.ready.then(() => {
       animation: tl,
       trigger: textElement,
       start: "0% 100%",
-      toggleActions: "play none none reset",
+      toggleActions: "play none none none",
     });
   });
 });
